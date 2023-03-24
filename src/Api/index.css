@@ -1,0 +1,24 @@
+.financialChartToolbar button,
+.financialChartIndicatorMenu,
+.financialChartTypePicker {
+  display: none !important;
+}
+.financialChartToolbar {
+  justify-content: flex-end;
+  border: none !important;
+  background-color: white !important;
+}
+.financialChartRangeSelector {
+  display: none !important;
+}
+.fullscreen-enabled {
+  background: #fff;
+}
+.buttons {
+  display: flex;
+  width: 85%;
+  justify-content: flex-end;
+  gap: 10px;
+  background-color: white;
+  transform: translateY(-4px);
+}
