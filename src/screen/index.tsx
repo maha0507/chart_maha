@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import React from "react";
 import NavigationBar from "../navbar";
 import { Header, HeaderText, Task } from "./style";
-import { cur, prev } from "../Api/StocksHistory";
+import { cur } from "../Api/StocksHistory";
 
 export const Screen = () => {
   console.log(cur);
@@ -23,7 +23,7 @@ export const Screen = () => {
               fontWeight={400}
               fontFamily="Circular Std"
               color="#BDBEBF"
-              mb={5}
+              mb={4}
             >
               USD
             </Typography>
@@ -35,7 +35,7 @@ export const Screen = () => {
             fontFamily="Circular Std"
             mt={-4}
           >
-            0.770 (0.55%)
+            + 0.770 (0.55%)
           </Typography>
           <NavigationBar></NavigationBar>
         </Header>

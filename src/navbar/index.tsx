@@ -33,16 +33,19 @@ function NavigationBar() {
       <nav>
         <ul className="li">
           {navItems.map((item) => (
-            <li
-              key={item}
-              onClick={() => handleClick(item)}
-              className={activeTab === item ? "active" : ""}
-            >
-              {item}
-            </li>
+            <>
+              <li
+                key={item}
+                onClick={() => handleClick(item)}
+                className={activeTab === item ? "active" : ""}
+              >
+                {item}
+              </li>
+            </>
           ))}
         </ul>
       </nav>
+      <div className="border"></div>
       {renderContent()}
     </Navigation>
   );

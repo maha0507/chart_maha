@@ -17,6 +17,7 @@ export const GraphScreen = () => {
             fontWeight={400}
             fontFamily="Circular Std"
             color="#6F7177"
+            mr={4}
           >
             Fullscreen
           </Typography>

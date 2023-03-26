@@ -11,9 +11,13 @@ export const Navigation = styled.div`
     font-style: normal;
     font-weight: 400;
     color: #6f7177;
+  }
+  .border {
     border-bottom: 1px solid #eff1f3;
   }
+
   .active {
+    padding-bottom: 15px;
     border-bottom: 3px solid #4b40ee;
     font-weight: 400;
     font-size: 18px;
@@ -21,6 +25,7 @@ export const Navigation = styled.div`
   }
   .activebutton {
     background: #4b40ee;
+    padding: 5px 14px;
     border-radius: 5px;
     font-family: "Circular Std";
     font-weight: 400;

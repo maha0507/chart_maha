@@ -12,8 +12,8 @@ export const Buttons = styled.div`
   padding-left: 40px;
   gap: 10px;
   width: 300px;
-  transform: translateY(23px);
-  z-index: 10;
+  transform: translateY(26px);
+  z-index: 2;
 `;
 export const Graph = styled.div`
   width: 100%;
